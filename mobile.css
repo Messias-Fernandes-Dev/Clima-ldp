@@ -1,7 +1,7 @@
 @media(max-width: 1024px) {
   .app-container{
     display:grid;
-    grid-template-columns: 1fr;
+    grid-template-columns: 100%;
     padding: 20px;
     gap: 40px;
   }
@@ -46,5 +46,48 @@
   width: 180px;
 }
 
+.hourly-forecast-container{
+padding: 20px;
+overflow-x: scroll;
+justify-content:center ;
+gap: 30px;
+}
 
+.hourly-forecast-container  .hour-weather-item img{
+  width: 50px;
+  height: 50px;
+  margin-bottom: 5px;
+}
+
+.hourly-forecast-container  .hour-weather-item p:first-child{
+ font-size: 0.825rem;
+ text-align: center;
+}
+
+.hourly-forecast-container  .hour-weather-item p:last-child{
+  font-size: 1.5rem;
+}
+
+.datails-item{
+  padding: 20px;
+  border-radius: 20px;
+}
+
+.datails-item p:first-child{
+  font-size:0.825rem ;
+  color: #8f8f8f;
+  margin-bottom: 10px;
+}
+
+
+.datails-item div p {
+  font-size: 1.5rem;
+  
+}
+
+
+.datails-item div p span{
+  font-size: 0.5rem;
+  margin-left: 2px;
+}
 }  
